@@ -53,7 +53,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li ><a href="#services">프로그램 소개</a></li>
                 <li><a href="#about">도서관 안내</a></li>
-                <li><a href="#features">상세 기능</a></li>
+                <li><a href="#features">이용 안내</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#">MYPAGE</a></li>
                 <li><a href="#">LOGIN</a></li>
@@ -74,7 +74,7 @@
 <div class="input-group">
                 <input type="text" placeholder="이곳에 입력하세요." class="form-control"><span class="input-group-btn">
                 <button type="button" class="btn btn-search">검색</button>
-
+                <button type="button" class="btn btn-search">상세검색</button>
                 </span></div>
 </div>
 </div>
