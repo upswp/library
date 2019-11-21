@@ -51,12 +51,12 @@
         <!- Collect the nav links, forms, and other content for toggling ->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li ><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
+                <li ><a href="#services">프로그램 소개</a></li>
+                <li><a href="#about">도서관 안내</a></li>
+                <li><a href="#features">상세 기능</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#">MYPAGE</a></li>
+                <li><a href="#">LOGIN</a></li>
 
             </ul>
         </div>
@@ -74,6 +74,7 @@
 <div class="input-group">
                 <input type="text" placeholder="이곳에 입력하세요." class="form-control"><span class="input-group-btn">
                 <button type="button" class="btn btn-search">검색</button>
+
                 </span></div>
 </div>
 </div>
@@ -82,8 +83,13 @@
 <section class="four-col-services" id="services">
   <div class="container">
     <div class="row">
-      <h2 class="text-center">Our Services</h2>
-      <h4 class="text-center">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </h4>
+      <h2 class="text-center">프로그램 소개</h2>
+      <h4 class="text-center">한 번쯤 도서관을 이용하다 제자리에 있지 않은 책으로 인해 이용에 불편을 느껴보지 않으셨나요?
+      <h4 class="text-center">분명 도서 검색 DESK에는 현재 대출 가능 상태의 책이지만, 책이 어디 있는지 찾을 수 없어 난감한 적이 있었을 것입니다.
+        도서관에서는 도서의 대출 가능 여부, 책장의 위치 안내 정도의 DB만 관리할 뿐 현재 상태에 대해선 알 수 없습니다.
+        그렇기 때문에 현재 도서관 시스템에서는 수시로 도서관 사서의 수동적인 관리에만 의존하고 있습니다.
+        그래서 우리는 이러한 도서관의 비효율적인 관리 시스템을 보완하고자 하였습니다. </h4>
+
 
 
       <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-bar-chart" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
@@ -229,7 +235,7 @@
 <div class="f-small-block">
 <div class="container">
 <div class="row small-inner text-center">
-<h3>Subscribe our newsletter</h3>
+<h3>2019 Capstone Project</h3>
 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsumThis is Photoshop's versionof Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 <!--<a href="#" class="btn btn-danger btn-capsul">Subscribe Now</a>-->
 </div>
