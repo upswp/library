@@ -17,7 +17,7 @@ a, a:hover, .btn{outline:none!important;}
 	}
 .row.no-gutter > [class^="col-"],
 .row.no-gutter > [class*=" col-"] {
-	
+
 	padding-right:0px;
 	padding-left:0px;
 }
@@ -30,8 +30,8 @@ section{padding:75px 0 100px;}
 .btn-submit {background: #5cb85c none repeat scroll 0 0; color: #fff; font-size: 20px; margin-top: 20px; padding: 7px 40px;}
 .btn-submit:hover {background:#3b8f3b; color:#fff}
 
- 
-/*-------------- Top Header --------------*/  
+
+/*-------------- Top Header --------------*/
 .navbar-default {
     background-color: transparent;
     border: medium none;
@@ -60,7 +60,7 @@ section{padding:75px 0 100px;}
 .navbar-default a.navbar-brand.dark{color:#0B5679;}
 .color-bg-nav{background:#1f2d3c; margin-top:0; padding:5px 0}
 
-/*-------------- Top Banner --------------*/  
+/*-------------- Top Banner --------------*/
 .banner-sec{height:100%; background:url(../img/banner-bg.jpg) no-repeat; background-size:cover;}
 .banner-sec .jumbotron{background:none;text-align:center; color:#fff; padding:100px;}
 .banner-sec .jumbotron p{font-size:19px;}
@@ -69,7 +69,7 @@ section{padding:75px 0 100px;}
 .banner-sec .input-group {margin-top: 20px; padding: 0 111px;}
 .banner-sec .form-control {border-radius: 25px; height: 43px;}
 .banner-sec .btn-search {background: red none repeat scroll 0 0; border-radius: 25px; color: #fff; font-size: 19px; height: 43px; padding: 0 35px; text-shadow: 1px 1px rgba(0, 0, 0, 0.5);}
-
+.banner-sec .btn-search2 {background: rgb(97, 68, 14) none repeat scroll 0 0; border-radius: 25px; color: #fff; font-size: 19px; height: 43px; padding: 0 35px; text-shadow: 1px 1px rgba(0, 0, 0, 0.5);}
 
 .four-col-services{float:left; width:100%; background:#fff;}
 .four-col-services h2{font-size:38px; font-weight:bold; margin:0 0 20px; color:#0f3648}
@@ -124,7 +124,7 @@ section{padding:75px 0 100px;}
 .testimonial-sec blockquote footer{color:#fff; background:none;}
 
 
-.f-small-block{width:100%; float:left; background:#1F2D3C; padding:30px 0}
+.f-small-block{width:100%; float:left; background:#0c1219; padding:30px 0}
 .f-small-block .small-inner{padding:0 50px;}
 .f-small-block h3{color:#fff; font-weight:600; text-transform:uppercase; font-size:24px; margin-bottom:15px; margin-top:0;}
 .f-small-block p{color:#e1e1e1; font-size:15px; font-weight:300; margin-bottom:15px;}
@@ -134,7 +134,7 @@ section{padding:75px 0 100px;}
 .contact-sec h2{font-size:55px; font-weight:bold; margin:0 0 60px; color:#0f3648}
 
 
-footer{float:left; width:100%; background:#1F2D3C; color:#fff; height:50px; line-height:50px;}
+footer{float:left; width:100%; background:#0c1219; color:#fff; height:50px; line-height:50px;}
 footer p{font-size:14px; font-weight:300; margin-bottom:0;}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -178,7 +178,7 @@ footer p{font-size:14px; font-weight:300; margin-bottom:0;}
 
 @media (max-width: 768px){
 
-h2 {}	
+h2 {}
 .banner-sec {height: 50vh;}
 .banner-sec h1 {font-size: 30px;}
 .banner-sec h2 {line-height: 36px; font-size:19px;}
@@ -192,5 +192,5 @@ h2 {}
 	p, .feature-section h3{text-align:center;}
 	.feature-section a{float:left; width:100%; text-align:center; margin-top:0;}
 	.f-small-block .small-inner{padding:0 20px}
-	
+
 }

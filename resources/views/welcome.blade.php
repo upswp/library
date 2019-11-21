@@ -32,8 +32,6 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
-
 
 
 <nav class="navbar navbar-default top-bar affix" data-spy="affix" data-offset-top="250" >
@@ -76,6 +74,8 @@
                 <button type="button" class="btn btn-search">검색</button>
                 <button type="button" class="btn btn-search">상세검색</button>
                 </span></div>
+
+
 </div>
 </div>
 </section>
@@ -236,8 +236,10 @@
 <div class="container">
 <div class="row small-inner text-center">
 <h3>2019 Capstone Project</h3>
-<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsumThis is Photoshop's versionof Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<p>한남대학교 컴퓨터통신무인기술학과 소속 <br> 담당 교수님: 이재광 교수님 <br>구성 인원 : 손범준 김현우 설선화 박상우</p>
 <!--<a href="#" class="btn btn-danger btn-capsul">Subscribe Now</a>-->
+  <a href="http://www.hannam.ac.kr/main/" style="padding-right: 50px;"><img src="/img/hannam.png" width="200" height="50"></a>
+  <a href="https://hanul.hannam.ac.kr/" style="padding-right: 50px;"><img src="/img/hannam_lib.png" width="200" height="50"></a>
 </div>
 </div>
 </div>
@@ -289,7 +291,7 @@
 <footer>
 <div class="container">
 <div class="row">
-<p class="text-center">Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
+<!--<p class="text-center">Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
 </p>
 </div>
 </div>
