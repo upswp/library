@@ -29,9 +29,16 @@
     <link rel="stylesheet" href="css/contact-input-style.css">
     <link rel="stylesheet" href="css/hover-effect.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- Font Awesome v5.0.0 css CDN연동
+         단, 아래 연동된 Font Awesome css sheet와 위 라인에 기존 font-awesome css파일(구버전)과
+         겹칠 수 있으니 주의!!
+     -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.0/css/all.css">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
+
 
 
 <nav class="navbar navbar-default top-bar affix" data-spy="affix" data-offset-top="250" >
@@ -63,6 +70,14 @@
     <!- /.container-fluid ->
 </nav>
 
+<!-- quick menu 버튼 모음 -->
+<div class="btn-group-vertical" data-toggle="buttons">
+    <button type="button" class="btn btn-primary">도서검색</button>
+    <button type="button" class="btn btn-primary">위치검색</button>
+    <button type="button" class="btn btn-primary">도서관안내</button>
+    <button type="button" class="btn btn-primary">MYPAGE</button>
+</div>
+
 <section class="banner-sec" id="home">
 <div class="container">
 <div class="jumbotron">
@@ -81,30 +96,32 @@
 </div>
 </section>
 
+
+
 <section class="four-col-services" id="services">
   <div class="container">
     <div class="row">
       <h2 class="text-center">프로그램 소개</h2>
       <h4 class="text-center">한 번쯤 도서관을 이용하다 제자리에 있지 않은 책으로 인해 이용에 불편을 느껴보지 않으셨나요?
-      <h4 class="text-center">분명 도서 검색 DESK에는 현재 대출 가능 상태의 책이지만, 책이 어디 있는지 찾을 수 없어 난감한 적이 있었을 것입니다.
-        도서관에서는 도서의 대출 가능 여부, 책장의 위치 안내 정도의 DB만 관리할 뿐 현재 상태에 대해선 알 수 없습니다.
-        그렇기 때문에 현재 도서관 시스템에서는 수시로 도서관 사서의 수동적인 관리에만 의존하고 있습니다.
+      <h4 class="text-center">분명 도서 검색 DESK에는 현재 대출 가능 상태의 책이지만, 책이 어디 있는지 찾을 수 없어 난감한 적이 있었을 것입니다.<br>
+        지금의 도서관에서는 도서의 대출 가능 여부, 책장의 위치 안내 정도의 DB만 관리할 뿐 현재의 책 상태에 대해선 알 수 없습니다.<br>
+        이러한 상황에서 현재의 도서관 시스템은 도서관 사서가 수시로 책을 변경하는 수동적인 관리에만 의존하고 있습니다.<br>
         그래서 우리는 이러한 도서관의 비효율적인 관리 시스템을 보완하고자 하였습니다. </h4>
 
 
 
-      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-bar-chart" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
+      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-camera" aria-hidden="true"></i><h3>Camera sensor</h3><p>카메라센서를 이용하여 바코드를 읽어<br> 현재 도서의 위치가 올바른지 검사합니다.</p></div>
 
-      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block down-effect"><i class="fa fa-bookmark-o" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
+      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block down-effect"><i class="fa fa-map-marker-alt" aria-hidden="true"></i><h3>Localization</h3><p>도서가 잘못된 위치에 비치되어 있다면 <br>현재 위치와 올바른 위치를 모두 표시합니다.</p></div>
 
-      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-bug" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div><br>
+      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-microchip" aria-hidden="true"></i><h3>Raspberry</h3><p>각 책장에 micro pc를 사용하여,<br> IoT 기술을 구현하였습니다.  </p></div><br>
 
-      <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block down-effect"><i class="fa fa-calendar-o" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
+     <!-- <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block down-effect"><i class="fa fa-calendar-o" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
 
       <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block up-effect"><i class="fa fa-code" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
 
       <div class="col-lg-4 col-md-4 col-sm-6 text-center service-block down-effect"><i class="fa fa-floppy-o" aria-hidden="true"></i><h3>Heading</h3><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p></div>
-
+     -->
 
 
     </div>
@@ -237,10 +254,10 @@
 <div class="container">
 <div class="row small-inner text-center">
 <h3>2019 Capstone Project</h3>
-<p>한남대학교 컴퓨터통신무인기술학과 소속 <br> 담당 교수님: 이재광 교수님 <br>구성 인원 : 손범준 김현우 설선화 박상우</p>
+<p>한남대학교 컴퓨터통신무인기술학과 소속 <br>구성 인원 : 손범준 김현우 설선화 박상우<br> 담당 교수님: 이재광 교수님</p>
 <!--<a href="#" class="btn btn-danger btn-capsul">Subscribe Now</a>-->
-  <a href="http://www.hannam.ac.kr/main/" style="padding-right: 50px;"><img src="/img/hannam.png" width="200" height="50"></a>
-  <a href="https://hanul.hannam.ac.kr/" style="padding-right: 50px;"><img src="/img/hannam_lib.png" width="200" height="50"></a>
+  <a href="http://www.hannam.ac.kr/main/" style="padding-right: 50px;"><img src="/img/hannam.png" width="180" height="50"></a>
+  <a href="https://hanul.hannam.ac.kr/" style="padding-right: 50px;"><img src="/img/hannam_lib.png" width="250" height="50"></a>
 </div>
 </div>
 </div>
@@ -347,17 +364,34 @@
     <script>
 	$('a[href^="#"]').on('click', function(event) {
 
-    var target = $( $(this).attr('href') );
+        var target = $( $(this).attr('href') );
 
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
 
-});
+    });
 
+    $(document).ready(function() {
+        /* quick menu 이동 애니메이션 */
+        var quickBox = $('.btn-group-vertical'); //퀵메뉴 코딩한 div의 클래스 네임 - 자신의 이름에 맞게 수정하세요
+        var quick_top = 200; // 기준이 되는 높이 값입니다. 수정해서 테스트 해보시면 감이 오실꺼에요.
+        quickBox.css('top', $(window).height() );
+
+        quickBox.animate( { "top": $(document).scrollTop() + quick_top +"px" },  500 ); //숫자값을 변경하시면 속도변화
+        $(window).scroll(function(){
+            quickBox.stop();
+            quickBox.animate( { "top": $(document).scrollTop() + quick_top + "px" }, 500 ); //숫자값을 변경하시면 속도변화
+        });
+
+
+
+
+
+    });
     </script>
   </body>
 </html>
