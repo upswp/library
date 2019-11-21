@@ -70,19 +70,13 @@
 <h2>원하는 책을 쉽게 찾아보세요.</h2>
 
 <div class="input-group">
-        <select name="catgo">
-          <option value="title">서명</option>
-          <option value="name">저자</option></option>
-          <option value="content">출판사</option>
-          <option value="number">도서번호</option>
-        </select>
+
 
                 <input type="text" placeholder="이곳에 입력하세요." class="form-control"><span class="input-group-btn">
-                <button type="button" class="btn btn-search">검색</button>
+                 <button type="button" class="btn btn-search">검색</button>
                 <button type="button" class="btn btn-search">상세검색</button>
-                </span></div>
-
-
+                </span>
+</div>
 </div>
 </div>
 </section>
