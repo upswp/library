@@ -72,11 +72,12 @@
 
 <!-- quick menu 버튼 모음 -->
 <div class="btn-group-vertical" data-toggle="buttons">
-    <button type="button" class="btn btn-primary">도서검색</button>
-    <button type="button" class="btn btn-primary">위치검색</button>
-    <button type="button" class="btn btn-primary">도서관안내</button>
-    <button type="button" class="btn btn-primary">MYPAGE</button>
+    <button type="button" class="btn btn-search2">도서검색</button>
+    <button type="button" class="btn btn-search2">위치검색</button>
+    <button type="button" class="btn btn-search2">도서관안내</button>
+    <button type="button" class="btn btn-search2">MYPAGE</button>
 </div>
+
 
 <section class="banner-sec" id="home">
 <div class="container">
