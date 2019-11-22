@@ -57,11 +57,11 @@
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li ><a href="#services">프로그램 소개</a></li>
-                <li><a href="#about">도서관 안내</a></li>
-                <li><a href="#features">이용 안내</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#">MYPAGE</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><a href="#about">이용 안내</a></li>
+                <li><a href="#features">공지 사항</a></li>
+                <li><a href="#team">도서 검색</a></li>
+                <!--<li><a href="#">MYPAGE</a></li>
+                <li><a href="#">LOGIN</a></li>-->
 
             </ul>
         </div>
@@ -72,10 +72,8 @@
 
 <!-- quick menu 버튼 모음 -->
 <div class="btn-group-vertical" data-toggle="buttons">
-    <button type="button" class="btn btn-search2">도서검색</button>
-    <button type="button" class="btn btn-search2">위치검색</button>
-    <button type="button" class="btn btn-search2">도서관안내</button>
-    <button type="button" class="btn btn-search2">MYPAGE</button>
+    <button type="button" class="btn btn-btn1 hover4">MYPAGE</button>
+    <button type="button" class="btn btn-btn3 hover4"><a href="#">SIGN-IN</a></button>
 </div>
 
 
@@ -90,7 +88,6 @@
 
                 <input type="text" placeholder="이곳에 입력하세요." class="form-control"><span class="input-group-btn">
                  <button type="button" class="btn btn-search">검색</button>
-                <button type="button" class="btn btn-search">상세검색</button>
                 </span>
 </div>
 </div>
@@ -134,16 +131,17 @@
 <section class="about-sec" id="about">
 <div class="container">
 <div class="row">
-<div class="col-md-7 col-sm-12 main-text"><h2>오시는 길</h2><p class="lead">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p> <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsumThis is Photoshop's versionof Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
-<p>Roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsumThis is Photoshop's versionof Lorem Ipsum.</p>
- <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsumThis is Photoshop's versionof Lorem Ipsum.</p>
+<div class="col-md-7 col-sm-12 main-text"><h2>이용안내</h2><p class="lead">[ 개관 안내 ]</p>
+<p>학기 중 : 평일 - 09:00 ~ 22:00  토요일 - 09:00 ~ 13:00</p>
+<p>방학 중 : 평일 - 09:00 ~ 17:00  토요일 - 09:00 ~ 13:00</p>
+<p>휴관일  : 일요일, 국경일, 개교기념일 특별한 경우 중앙도서관장이 휴관일을 정할 수 있습니다.</p>
 </div>
 <div class="col-md-5 col-sm-12 points">
 <div class="row">
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-01.png"><p>less text here used to show less text. it works.</p></div>
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-02.png"><p>less text here used to show less text. it works.</p></div>
-<div class="col-sm-6  col-xs-6 point-content text-center"><img src="img/icon-about-03.png"><p>less text here used to show less text. it works.</p></div>
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-04.png"><p>less text here used to show less text. it works.</p></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-01.png"><p>뭘 쓰지</p></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-02.png"><p>뭘 쓰지</p></div>
+<div class="col-sm-6  col-xs-6 point-content text-center"><img src="img/icon-about-03.png"><p>뭘 쓰지</p></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-04.png"><p>뭘 쓰지</p></div>
 </div>
 </div>
 
@@ -153,23 +151,23 @@
 
 <section class="feature-section" id="features">
 <div class="container">
-<h2 class="text-center">Features</h2>
-<p class="text-center sub-text">Proin gravida nibh vel velit auctor aliquet.</p>
+<h2 class="text-center">공지 사항</h2>
+<p class="text-center sub-text">우리 도서관의 다양한 정보를 알아보세요.</p>
 <div class="row">
 <div class="col-md-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-01.jpg"></div>
-<div class="col-md-6 right-effect"><div class="content-box"><h3>Basement Wireframe kit</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 right-effect"><div class="content-box"><h3>공지 사항</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 
 <div class="row">
 <div class="col-md-6 col-md-push-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-03.jpg"></div>
-<div class="col-md-6 col-md-pull-6 right-effect"><div class="content-box"><h3>Basement Wireframe kit</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 col-md-pull-6 right-effect"><div class="content-box"><h3>신착도서 안내</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 
 <div class="row">
 <div class="col-md-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-02.jpg"></div>
-<div class="col-md-6 right-effect"><div class="content-box"><h3>Basement Wireframe kit</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 right-effect"><div class="content-box"><h3>추천도서 안내</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 </div>
