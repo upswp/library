@@ -2,7 +2,7 @@
 <html lang="kr">
 	<head>
 	<meta charset="UTF-8">
-    <title>http://www.blueb.co.kr</title>
+    <title>SMART LIBRARY - SIGN IN</title>
 
     <link rel="stylesheet" href="css/signin.css">
 </head>

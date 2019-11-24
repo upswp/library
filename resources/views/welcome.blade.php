@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kor">
+<html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,6 +34,7 @@
          겹칠 수 있으니 주의!!
      -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.0/css/all.css">
+
 
   </head>
 <!-- NAVBAR
@@ -73,7 +74,8 @@
 <!-- quick menu 버튼 모음 -->
 <div class="btn-group-vertical" data-toggle="buttons">
     <button type="button" class="btn btn-btn1 hover4">MYPAGE</button>
-    <button type="button" class="btn btn-btn3 hover4"><a href="signin.blade.phㅇp">SIGN-IN</a></button>
+    <button type="button" class="btn btn-btn3 hover4"><a href="#">SIGN-IN</a></button>
+
 </div>
 
 
