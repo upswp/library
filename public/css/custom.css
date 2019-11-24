@@ -139,6 +139,7 @@ select::-ms-expand {display: none;}
 .feature-section .content-box{padding:0px 20px; }
 .feature-section .container > .row{padding:50px 0; border-bottom:1px dashed #efefef}
 .feature-section .container > .row:last-child{padding:50px 0 0; border-bottom:none}
+
 .feature-section .img-sec{padding:0 20px}
 
 .team-sec{float:left; width:100%; background:#efefef; }
@@ -147,7 +148,7 @@ select::-ms-expand {display: none;}
 .team-sec h3 {font-size: 19px; margin-bottom:20px; text-transform:uppercase; color:#394F67; font-weight:600}
 .team-sec p{font-size:16px; margin:15px 0; line-height:30px;}
 .team-sec .contact-con i {border: 1px solid #394F67; border-radius: 50%; font-size: 21px; margin: 0 5px; color:#394F67; cursor:pointer;  -webkit-transition: all .50s;  -moz-transition: all .50s; transition: all .50s; width:47px; height:47px; text-align:center; line-height:47px}
-.team-sec .contact-con i:hover{border: 1px solid #394F67; color:#fff; background:#394F67}
+.team-sec .contact-con i:hover{border: 1px solid #1f212460; color:#fff; background:#394F67}
 .team-sec img{height:290px;}
 .team-sec .member-block{padding-bottom:30px;}
 

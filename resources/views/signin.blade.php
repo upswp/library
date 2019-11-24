@@ -1,77 +1,94 @@
-<!doctype html>
-<html lang="kr">
-	<head>
-	<meta charset="UTF-8">
-    <title>SMART LIBRARY - SIGN IN</title>
+@extends('layouts.master')
 
-    <link rel="stylesheet" href="css/signin.css">
-</head>
-<body>
+@section('content')
+<link rel="stylesheet" href="css/signin.css">
 
-<section class="container" >
-		    <article class="half">
-			        <h1>Cre8</h1>
-			        <div class="tabs">
-				            <span class="tab signin active"><a href="#signin">Sign in</a></span>
-				            <span class="tab signup"><a href="#signup">Sign up</a></span>
-			        </div>
-			        <div class="content">
-				            <div class="signin-cont cont">
-                                <form action="#" method="post" enctype="multipart/form-data">
-                                    <input type="email" name="email" id="email" class="inpt" required="required" placeholder="Your email">
-                                    <label for="email">Your email</label>
-                                    <input type="password" name="password" id="password" class="inpt" required="required" placeholder="Your password">
-                                    <label for="password">Your password</label>
-                                    <input type="checkbox" id="remember" class="checkbox" checked>
-                                    <label for="remember">Remember me</label>
-                                    <div class="submit-wrap">
-                                            <input type="submit" value="Sign in" class="submit">
-                                            <a href="#" class="more">Forgot your password?</a>
-                                    </div>
-                            </form>
-    				        </div>
-    				        <div class="signup-cont cont">
-                <form action="#" method="post" enctype="multipart/form-data">
-						                    <input type="email" name="email" id="name" class="inpt" required="required" placeholder="Your name">
-						                    <label for="name">Your name</label>
-                    <input type="email" name="email" id="email" class="inpt" required="required" placeholder="Your email">
-						                    <label for="email">Your email</label>
-						                    <input type="password" name="password" id="password" class="inpt" required="required" placeholder="Your password">
-                						    <label for="password">Your password</label>
-						                    <div class="submit-wrap">
-							                        <input type="submit" value="Sign up" class="submit">
-							                        <a href="#" class="more">Terms and conditions</a>
-						                    </div>
-        					        </form>
-            </div>
-			        </div>
-		    </article>
-		    <div class="half bg"></div>
-	</section>
-
-
+<!-- Form-->
+<div class="form">
+  <div class="form-toggle"></div>
+  <div class="form-panel one">
+    <div class="form-header">
+      <h1>Account Login</h1>
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required="required"/>
+        </div>
+        <div class="form-group">
+          <label class="form-remember">
+            <input type="checkbox"/>Remember Me
+          </label><a href="#" class="form-recovery">Forgot Password?</a>
+        </div>
+        <div class="form-group">
+          <button type="submit">Log In</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="form-panel two">
+    <div class="form-header">
+      <h1>Register Account</h1>
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="cpassword">Confirm Password</label>
+          <input type="password" id="cpassword" name="cpassword" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required="required"/>
+        </div>
+        <div class="form-group">
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
-$('.tabs .tab').click(function(){
-    if ($(this).hasClass('signin')) {
-        $('.tabs .tab').removeClass('active');
-        $(this).addClass('active');
-        $('.cont').hide();
-        $('.signin-cont').show();
-    }
-    if ($(this).hasClass('signup')) {
-        $('.tabs .tab').removeClass('active');
-        $(this).addClass('active');
-        $('.cont').hide();
-        $('.signup-cont').show();
-    }
-});
-$('.container .bg').mousemove(function(e){
-    var amountMovedX = (e.pageX * -1 / 30);
-    var amountMovedY = (e.pageY * -1 / 9);
-    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+$(document).ready(function() {
+  var panelOne = $('.form-panel.two').height(),
+    panelTwo = $('.form-panel.two')[0].scrollHeight;
+
+  $('.form-panel.two').not('.form-panel.two.active').on('click', function(e) {
+    e.preventDefault();
+
+    $('.form-toggle').addClass('visible');
+    $('.form-panel.one').addClass('hidden');
+    $('.form-panel.two').addClass('active');
+    $('.form').animate({
+      'height': panelTwo
+    }, 200);
+  });
+
+  $('.form-toggle').on('click', function(e) {
+    e.preventDefault();
+    $(this).removeClass('visible');
+    $('.form-panel.one').removeClass('hidden');
+    $('.form-panel.two').removeClass('active');
+    $('.form').animate({
+      'height': panelOne
+    }, 200);
+  });
 });
 </script>
-</body>
-</html>
+<br>
+<br>
+@endsection

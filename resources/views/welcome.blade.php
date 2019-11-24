@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
@@ -9,11 +9,11 @@
 
     <title>SMART LIBRARY</title>
 
-    <!--Bootstrap core CSS-->
+    <!--Bootstrap core CSS
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!--Custom Fonts-->
+    <!--Custom Fonts
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
@@ -24,7 +24,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template
     <link href="css/custom.css" rel="stylesheet">
     <link rel="stylesheet" href="css/contact-input-style.css">
     <link rel="stylesheet" href="css/hover-effect.css">
@@ -32,7 +32,7 @@
     <!-- Font Awesome v5.0.0 css CDN연동
          단, 아래 연동된 Font Awesome css sheet와 위 라인에 기존 font-awesome css파일(구버전)과
          겹칠 수 있으니 주의!!
-     -->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.0/css/all.css">
 
 
@@ -41,8 +41,9 @@
 ================================================== -->
 
 
+@extends('layouts.master')
 
-<nav class="navbar navbar-default top-bar affix" data-spy="affix" data-offset-top="250" >
+<!--<nav class="navbar navbar-default top-bar affix" data-spy="affix" data-offset-top="250" >
     <div class="container" >
         <!- Brand and toggle get grouped for better mobile display ->
         <div class="navbar-header page-scroll">
@@ -62,7 +63,7 @@
                 <li><a href="#features">공지 사항</a></li>
                 <li><a href="#team">도서 검색</a></li>
                 <!--<li><a href="#">MYPAGE</a></li>
-                <li><a href="#">LOGIN</a></li>-->
+                <li><a href="#">LOGIN</a></li>
 
             </ul>
         </div>
@@ -78,7 +79,7 @@
 
 </div>
 -->
-
+@section('content')
 <section class="banner-sec" id="home">
 <div class="container">
 <div class="jumbotron">
@@ -306,9 +307,7 @@
                 </div>
 
 </section> -->
-<footer>
-<div class="container">
-<div class="row">
+
 <!--<p class="text-center">Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
 </p>
 </div>
@@ -320,9 +319,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+   <!--여기서부터 긁어온 부분
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/oppear_1.1.2.min.js"></script>
     <script>
@@ -392,6 +392,5 @@
 
 
     });
-    </script>
-  </body>
-</html>
+    </script>-->
+    @endsection
