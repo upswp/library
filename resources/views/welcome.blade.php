@@ -57,7 +57,7 @@
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li ><a href="#services">프로그램 소개</a></li>
-                <li><a href="#about">이용 안내예요</a></li>
+                <li><a href="#about">이용 안내</a></li>
                 <li><a href="#features">공지 사항</a></li>
                 <li><a href="#team">도서 검색</a></li>
                 <!--<li><a href="#">MYPAGE</a></li>
@@ -131,17 +131,17 @@
 <section class="about-sec" id="about">
 <div class="container">
 <div class="row">
-<div class="col-md-7 col-sm-12 main-text"><h2>이용안내</h2><p class="lead">[ 개관 안내 ]</p>
+<div class="col-md-7 col-sm-12 main-text"><h2>이용안내</h2><br><p class="lead">[ 개관 안내 ]</p><br>
 <p>학기 중 : 평일 - 09:00 ~ 22:00  토요일 - 09:00 ~ 13:00</p>
 <p>방학 중 : 평일 - 09:00 ~ 17:00  토요일 - 09:00 ~ 13:00</p>
-<p>휴관일  : 일요일, 국경일, 개교기념일 특별한 경우 중앙도서관장이 휴관일을 정할 수 있습니다.</p>
+<p>휴관일  : 일요일, 국경일, 개교기념일 <br> - 특별한 경우 중앙도서관장이 휴관일을 정할 수 있습니다.</p>
 </div>
 <div class="col-md-5 col-sm-12 points">
 <div class="row">
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-01.png"><p>뭘 쓰지</p></div>
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-02.png"><p>뭘 쓰지</p></div>
-<div class="col-sm-6  col-xs-6 point-content text-center"><img src="img/icon-about-03.png"><p>뭘 쓰지</p></div>
-<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-04.png"><p>뭘 쓰지</p></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-01.png"><a href="#"><p>자료 대출 방법></p></a></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-02.png"><a href="#"><p>자료 반납 방법></p></a></div>
+<div class="col-sm-6  col-xs-6 point-content text-center"><img src="img/icon-about-03.png"><a href="#"><p>대출 권수 및 기간></p></a></div>
+<div class="col-sm-6 col-xs-6 point-content text-center"><img src="img/icon-about-04.png"><a href="#"><p>도서관 위치></p></a></div>
 </div>
 </div>
 
@@ -155,19 +155,19 @@
 <p class="text-center sub-text">우리 도서관의 다양한 정보를 알아보세요.</p>
 <div class="row">
 <div class="col-md-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-01.jpg"></div>
-<div class="col-md-6 right-effect"><div class="content-box"><h3>공지 사항</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 right-effect"><div class="content-box"><h3>공지 사항</h3><p>우리 도서관의 새로운 공지사항을 확인해보세요.(예시로 적어봤습니다.-다른 메뉴로 변경가능)</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 
 <div class="row">
 <div class="col-md-6 col-md-push-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-03.jpg"></div>
-<div class="col-md-6 col-md-pull-6 right-effect"><div class="content-box"><h3>신착도서 안내</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 col-md-pull-6 right-effect"><div class="content-box"><h3>신착도서 안내</h3><p>이 달의 신간 도서를 만나보세요.(예시로 적어봤습니다.-다른 메뉴로 변경가능)</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 
 <div class="row">
 <div class="col-md-6 img-sec left-effect"><img class="img-responsive" src="img/info-bg-02.jpg"></div>
-<div class="col-md-6 right-effect"><div class="content-box"><h3>추천도서 안내</h3><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+<div class="col-md-6 right-effect"><div class="content-box"><h3>추천도서 안내</h3><p>이 달의 추천도서를 만나보세요.(예시로 적어봤습니다.-다른 메뉴로 변경가능)</p>
 <a href="#">Know More<i class="fa fa-angle-right"></i></a></div></div>
 </div>
 </div>
